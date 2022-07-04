@@ -1,0 +1,8 @@
+.backgroundOfWeb {
+    height: 70vh;
+    width: 100vw;
+    background-image: linear-gradient(darkgoldenrod, darkkhaki);
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+}

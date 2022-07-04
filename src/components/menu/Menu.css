@@ -1,0 +1,21 @@
+.wrapperMenu {
+    width: 100vw;
+    height: 7vh;
+    background-color: darkkhaki;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.wrapperMenu li {
+    background-color: beige;
+    flex-grow: 1;
+    line-height: 7vh;
+    border: 1px solid lightgrey;
+}
+
+.wrapperMenu li:hover {
+    border: 1px solid green;
+    background-color: antiquewhite;
+}

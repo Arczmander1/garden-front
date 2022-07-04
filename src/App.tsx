@@ -1,27 +1,19 @@
 import React from 'react';
 
-import './App.css'
+import {Header} from "./components/header/Header";
+import {Menu} from "./components/menu/Menu";
+import {Bgc} from "./components/bgc/Bgc";
+import {Footer} from "./components/footer/Footer";
 
 export const App = () => {
     return (
         <>
-            <header>
-                <h1>Miód z pasieki</h1>
-            </header>
-
-            <ul className="wrapperMenu">
-                <li>Sklep</li>
-                <li>Promocje</li>
-                <li>Nowości</li>
-                <li>O nas</li>
-                <li>Kontakt</li>
-            </ul>
-
-            <div className="backgroundOfWeb"></div>
-            <footer> Created by Arkadiusz Martenka</footer>
+            <Header/>
+            <Menu/>
+            <Bgc/>
+            <Footer/>
         </>
     );
 }
 
-export default App;
 
