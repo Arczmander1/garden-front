@@ -1,32 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import {TestInterface} from 'types';
-import './App.css';
 
-function App() {
+import './App.css'
 
-  const foobar: TestInterface = {
-    x: 5,
-  };
+export const App = () => {
+    return (
+        <>
+            <header>
+                <h1>Miód z pasieki</h1>
+            </header>
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+            <ul className="wrapperMenu">
+                <li>Sklep</li>
+                <li>Promocje</li>
+                <li>Nowości</li>
+                <li>O nas</li>
+                <li>Kontakt</li>
+            </ul>
+
+            <div className="backgroundOfWeb"></div>
+            <footer> Created by Arkadiusz Martenka</footer>
+        </>
+    );
 }
 
 export default App;
+
