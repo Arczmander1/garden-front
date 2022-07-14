@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './Header.css'
+import './Header.css';
 
 export const Header = () => (
     <header>
-        <h1>Miód z pasieki</h1>
+        <h1>Miodowa Pasieka</h1>
     </header>
 );

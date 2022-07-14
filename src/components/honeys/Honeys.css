@@ -1,0 +1,10 @@
+.honeyList {
+    height: 60%;
+    width: 60%;
+    text-align: center;
+    background-image: linear-gradient(darkgoldenrod, darkkhaki);
+    border: 2px solid black;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
