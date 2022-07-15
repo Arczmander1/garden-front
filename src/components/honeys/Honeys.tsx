@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import './Honeys.css';
 import {GardenEntity} from "types";
 import { HoneysTable } from "./HoneysTable";
+import {Spinner} from "../common/Spinner/Spinner";
 
 
 export const Honeys = () => {
@@ -20,11 +21,11 @@ export const Honeys = () => {
     }, []);
 
     if (honeysList === null) {
-        return <p>Wczytywanie...</p>
+        return <Spinner/>
     }
 
-    return <>
-        <h1>Honeys</h1>
-        <HoneysTable honeys={honeysList} onHoneyListChange={newHoneyTables}/>
-        </>;
+    return <div className={"wrap"}>
+        <h1>Miody</h1>
+        <div><HoneysTable honeys={honeysList} onHoneyListChange={newHoneyTables}/></div>
+        </div>;
 };

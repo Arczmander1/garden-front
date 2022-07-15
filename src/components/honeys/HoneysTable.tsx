@@ -8,6 +8,7 @@ interface Props {
 }
 
 export const HoneysTable = (props: Props) => (
+ <div className="wrap">
     <table>
         <thead>
         <tr>
@@ -25,4 +26,5 @@ export const HoneysTable = (props: Props) => (
         }
         </tbody>
     </table>
+ </div>
 )

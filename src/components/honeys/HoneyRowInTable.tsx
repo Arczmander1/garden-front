@@ -27,6 +27,7 @@ export const HoneyRowInTable = (props: Props) => {
     };
 
     return (
+
         <tr>
             <th>{props.honey.name} </th>
             <th>{props.honey.price} </th>
@@ -36,5 +37,6 @@ export const HoneyRowInTable = (props: Props) => {
                 <a href="#" onClick={deleteHoney}>❌</a>
             </td>
         </tr>
+
     )
 };

@@ -19,3 +19,9 @@
     border: 1px solid green;
     background-color: antiquewhite;
 }
+
+.sorry, .contact, .about, .news, .main  {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
