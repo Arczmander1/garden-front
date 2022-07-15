@@ -34,7 +34,7 @@ export const HoneyRowInTable = (props: Props) => {
             <th>{props.honey.origin} </th>
             <th>{props.honey.capacity} </th>
             <td>
-                <a href="#" onClick={deleteHoney}>❌</a>
+                <a style={{ textDecoration: 'none'}} href="#" onClick={deleteHoney}>❌</a>
             </td>
         </tr>
 

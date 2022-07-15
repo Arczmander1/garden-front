@@ -1,19 +1,23 @@
 .wrap {
     height: 60%;
-    width: 80%;
-    text-align: center;
+    width: 100%;
     background-image: linear-gradient(darkgoldenrod, darkkhaki);
-    border: 2px solid black;
     position: absolute;
     top: 27%;
-    left: 10%;
+    left: 0;
+
 }
 
 .wrap div {
-    padding-top: 1rem;
-    padding-left: 2rem;
+    padding-left: 0.5rem ;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-image: none;
 }
 
 .wrap h1 {
+    padding-left: 8rem;
     background-color: beige;
+
 }
