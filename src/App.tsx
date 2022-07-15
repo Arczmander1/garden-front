@@ -11,6 +11,7 @@ import {ContactView} from "./views/ContactView";
 import {AboutView} from "./views/AboutViews";
 import { NewsView } from './views/NewsView';
 import {MainView} from "./views/MainViews";
+import {NotFoundView} from "./views/NotFoundView";
 
 
 export const App = () => {
@@ -27,6 +28,7 @@ export const App = () => {
                 <Route path="/about" element={<AboutView/>}/>
                 <Route path="/news" element={<NewsView/>}/>
                 <Route path="/garden" element={<MainView/>}/>
+                <Route path="*" element={<NotFoundView/>}/>
 
             </Routes>
         </>

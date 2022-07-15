@@ -5,7 +5,9 @@ import {Link} from "react-router-dom";
 
 export const Header = () => (
     <header>
-        <li><Link to="/garden">Miodowa Pasieka</Link></li>
+        <div>
+            <Link style={{ textDecoration: 'none', color: 'darkgreen', fontSize: '1.5rem'}} to="/garden">Miodowa Pasieka</Link>
+        </div>
     </header>
 );
 

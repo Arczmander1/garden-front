@@ -2,6 +2,6 @@ import React from "react";
 
 export const MainView = () => (
     <div className="main">
-        <h1>Dzień dobry, miło nam Cię widzieć !</h1>
+        <h1>Dzień dobry, miło Cię widzieć !</h1>
     </div>
 );

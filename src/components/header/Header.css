@@ -2,5 +2,9 @@ header {
     width: 100vw;
     height: 15vh;
     background-image: linear-gradient(darkgoldenrod, darkkhaki);
-}
 
+}
+header div {
+    color: white;
+    padding: 1.5rem;
+}
